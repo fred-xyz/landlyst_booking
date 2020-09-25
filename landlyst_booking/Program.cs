@@ -8,13 +8,13 @@ namespace landlyst_booking
         static void Main(string[] args)
         {
             SqlDataReader rdr = null;
-            Read_Booking.Read_Data(rdr);
 
             Console.WriteLine("welcome her is a list or items");
             Console.WriteLine();
             Console.WriteLine("Read Data");
             Read_Booking.Read_Data(rdr);
 
+            //warealbulles for the inset sql statment
             Console.WriteLine("inter last id + 1");
             string Tabel_id = Console.ReadLine();
 
